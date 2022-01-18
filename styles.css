@@ -23,14 +23,16 @@ html {
     background-color: #3B465C;
     -webkit-font-smoothing: antialiased;
   }
-  
+
   a {
-	color: inherit;
- }
- a:hover {
-	text-decoration: none;
   transition: color 0.3s;
   color: #757883;
+  
+ }
+ a:hover {
+
+    color: #fff;
+    transition: color 0.3s;
  }
   
   #content {
@@ -46,7 +48,7 @@ html {
     background: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
     
   }
-  h1 {
+  h1 {  
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 12px;
