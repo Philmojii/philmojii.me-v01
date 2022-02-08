@@ -20,11 +20,12 @@ html {
     font-family: "Inter", sans-serif;
     color: #E9E8D4;
     line-height: 1.3;
-    background-color: #3B465C;
+    background-color: #17191B;
     -webkit-font-smoothing: antialiased;
   }
 
   a {
+  text-decoration: none;
   transition: color 0.3s;
   color: #757883;
   
@@ -40,14 +41,7 @@ html {
     margin: 0 auto;
     padding: 48px 48px;
   }
-  .me {
-    width: 100px;
-    height: 100px;
-    padding: 2px;
-    border-radius: 60px;
-    background: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
     
-  }
   h1 {  
     font-weight: 600;
     font-size: 24px;
